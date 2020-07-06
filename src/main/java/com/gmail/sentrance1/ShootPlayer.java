@@ -73,5 +73,6 @@ class ShootPlayer
             return;
         objective.setDisplayName(color.toString() + ChatColor.BOLD + GAME_NAME);
     }
+    public int getKills() { return this.kills; }
 
 }
