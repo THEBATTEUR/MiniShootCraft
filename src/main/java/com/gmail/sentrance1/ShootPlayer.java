@@ -37,6 +37,7 @@ class ShootPlayer
         sKills.setScore(2);
         objective.getScore(ChatColor.WHITE.toString()).setScore(1);
         player.setScoreboard(board);
+        player.getInventory().setItem(4, new ItemStack(Material.ARROW, 1));
     }
 
     // ========================================================================
